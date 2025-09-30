@@ -58,7 +58,7 @@ function limpiar() {
 function save(e: Event): void {
     e.preventDefault();
     if (opcion == "editar") {
-        Editar(primerValor); // ✅ Pasar el código del producto
+        Editar(primerValor); 
         primerValor = 0;
         limpiar();
         opcion = "";
